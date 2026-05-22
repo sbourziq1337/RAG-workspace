@@ -1,0 +1,11 @@
+fastapi[standard]
+pydantic-settings
+aiofiles
+unstructured
+langchain
+PyMuPDF
+langchain-community
+markdown
+pymongo
+motor
+

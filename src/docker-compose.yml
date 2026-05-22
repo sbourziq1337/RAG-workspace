@@ -1,0 +1,14 @@
+services:
+  mongodb:
+    build: ./DataBase
+    container_name: rag-mongodb
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=password123
+
+volumes:
+  mongo-data:
