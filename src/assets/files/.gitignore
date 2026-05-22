@@ -1,1 +1,3 @@
-files
+# Ignore all files in this directory (uploaded user files)
+*
+!.gitignore
